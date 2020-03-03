@@ -7,6 +7,10 @@ using UnityEngine.EventSystems;
 
 public class MenuController : MonoBehaviour
 {
+//This is a first attmpt at script UI control. 
+//code which will be put into a method in vs.0.2 is: Moving the background panel and transitions buttons. 
+//That will cut this code down by at least 1000 lines.
+
     [SerializeField]
     private GameObject noMenuUIObj;
     private RectTransform noMenuUIPanel;
